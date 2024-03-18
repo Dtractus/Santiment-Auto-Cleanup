@@ -1,5 +1,8 @@
 # Santiment-Auto-Cleanup
 
+For explanation in English, please [CHECK HERE](README_EN.md)
+
+
 ### Genel Bakış
 -------------
   Bilindiği üzere Santiment üzerinde node(readonly) çalıştıranlarda yoğun olarak bir disk kullanımı ve bu kullanıma mevcut olarak boş disk alanınında hızlı bir şekilde azalma görülüyordu.
