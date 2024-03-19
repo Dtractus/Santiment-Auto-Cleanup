@@ -11,6 +11,7 @@ sudo apt-get install -y python3 python3-pip git curl
 # Python script'inin indirilmesi ve ilgili dizine taşınması
 git clone https://github.com/Dtractus/Santiment-Auto-Cleanup.git /$HOME/DtractusAutoPrune
 cd /$HOME/DtractusAutoPrune
+chmod +x sanr-cleanup.py
 
 # Kullanıcının verdiği değerlere göre Python dosyasının güncellenmesi
 sed -i "s|DISK_NAME = \"/dev/sda1\"|DISK_NAME = \"${DISK_NAME}\"|g" sanr-cleanup.py
